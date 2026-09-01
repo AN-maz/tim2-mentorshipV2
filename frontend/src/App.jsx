@@ -1,7 +1,11 @@
+import AppRouter from './routes/index.jsx';
+import { Toaster } from 'react-hot-toast';
+
 export default function App() {
-  return(
-    <div className="">
-      <h1>MasPur</h1>
-    </div>
-  )
+  return (
+    <>
+      <Toaster position="top-right" />
+      <AppRouter />
+    </>
+  );
 }
